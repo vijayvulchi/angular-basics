@@ -12,6 +12,11 @@ import { CartComponent } from './cart/cart.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { ShippingComponent } from './shipping/shipping.component';
+import { LifecycleOnchangesComponent } from './lifecycle-onchanges/lifecycle-onchanges.component';
+import { LifecycleOninitComponent } from './lifecycle-oninit/lifecycle-oninit.component';
+import { NoEncapsulationComponent } from './no-encapsulation/no-encapsulation.component';
+import { EncapsulationEmulatedComponent } from './encapsulation-emulated/encapsulation-emulated.component';
+import { ShadowDomEncapsulationComponent } from './shadow-dom-encapsulation/shadow-dom-encapsulation.component';
 
 @NgModule({
   imports: [
@@ -33,6 +38,11 @@ import { ShippingComponent } from './shipping/shipping.component';
     ProductDetailsComponent,
     CartComponent,
     ShippingComponent,
+    LifecycleOnchangesComponent,
+    LifecycleOninitComponent,
+    NoEncapsulationComponent,
+    EncapsulationEmulatedComponent,
+    ShadowDomEncapsulationComponent,
   ],
   bootstrap: [AppComponent],
 })
