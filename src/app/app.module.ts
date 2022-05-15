@@ -17,6 +17,8 @@ import { LifecycleOninitComponent } from './lifecycle-oninit/lifecycle-oninit.co
 import { NoEncapsulationComponent } from './no-encapsulation/no-encapsulation.component';
 import { EncapsulationEmulatedComponent } from './encapsulation-emulated/encapsulation-emulated.component';
 import { ShadowDomEncapsulationComponent } from './shadow-dom-encapsulation/shadow-dom-encapsulation.component';
+import { ParentComponentComponent } from './data-passing/parent-component/parent-component.component';
+import { ChildComponentComponent } from './data-passing/child-component/child-component.component';
 
 @NgModule({
   imports: [
@@ -43,6 +45,8 @@ import { ShadowDomEncapsulationComponent } from './shadow-dom-encapsulation/shad
     NoEncapsulationComponent,
     EncapsulationEmulatedComponent,
     ShadowDomEncapsulationComponent,
+    ParentComponentComponent,
+    ChildComponentComponent,
   ],
   bootstrap: [AppComponent],
 })
